@@ -6,6 +6,9 @@ table {
     border: 2px solid black;
     position: relative;
     top: 100px;
+    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
 }
 thead {
     border: 3px solid black;  
@@ -22,16 +25,25 @@ td, th {
     text-align: center;
     padding: 5px;
     font-size: larger;
+    
 }
 h1{
     color: rgb(32, 54, 87);
     font-size: 50px;
     text-align: center;
     border: 4px double black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 228, 228);
 }
 
 .title {
     font-size: 20px;
     color: rgb(238, 228, 228);
     background-color: rgb(32, 54, 87);
+}
+
+.haut {
+    background-color: rgb(238, 228, 228);
 }
